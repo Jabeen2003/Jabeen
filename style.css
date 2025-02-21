@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(250, 195, 204);
+}
+.container {
+    background-color: rgb(236, 218, 218);
+    border-radius: 10px;
+    width: 350px;
+    justify-self: left;
+    input[type="submit"]:hover {
+        background-color: aqua;
+        border-radius: 5px;
+    }
+}

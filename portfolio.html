@@ -3,12 +3,13 @@
     <head>
         <h1>About me</h1>
     <title>Portfolio</title>
+    <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-    <p>I am Jabeen Taj M from Hosur. Now I am currently pusuing B.E.(Computer Science and Engineering) in ER.Perumal Manimekalai College of Engineering(Autonomous Institution).</p>
+    <p>I am Jabeen Taj M from Hosur. Now I am currently pusuing B.E.(Computer Science and Engineering) in ER.Perumal Manimekalai College of Engineering(Autonomous Institution). I have a strong interest in Data Analytics and Full Stack Development field.</p>
     <h1>
         Personal Information
-    </h1>
+    </h1>    
     <p>
         <b>Name:</b> Jabeen Taj M<br><b>Professional Email:</b>jabeentaj1112003@gmail.com<br><b>LinkedIn Profile:</b>https://www.linkedin.com/in/jabeen-taj-839036259</br><b>Github link:</b>https://github.com/Jabeen2003
     </p>
@@ -26,12 +27,23 @@
     <li>Online Transaction Fraud Detection.</li>
     <li>Capstone Project: Netflix Dashboard using Power BI.</li>
     <li>Socio Economic Analysis.</li>
+    <div class="container">
     <h1>Query form</h1>
-    <form>
-        Name:&nbsp;<input type="text" id="name" name="name" required><br>
-        address:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <textarea id="name" name="address"  rows=5 cols=20></textarea><br>
-        <input type="submit" value="Submit">
-    </form>
+    <form id="query form">
+        <lable for="Name"><b>Name:</b>&nbsp;</lable>
+        <input type="text" name="fname" placeholder="Your name.."><br> 
+        <br>
+        <label for="Email"><b>E-Mail:</b></label>
+        <input type="email" mail="mailid" placeholder="abc@gmail.com"><br>
+        <br>
+              <label for="Message"><b>Message:</b></label>
+            <br>
+              <textarea id="Message" name="Message" placeholder="Write something.." style="height:100px"></textarea><br>
+              <div class="Button">        <input type="submit" value="Submit"><br></div>
+        <br>
+        </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
     </body>
 </html>
